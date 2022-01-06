@@ -4072,6 +4072,95 @@ chip</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-LED">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find discrete LEDs for illumination or indication, but no displays.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="WS2812B">
+<description>&lt;b&gt;Intelligent control LED with integrated light source&lt;/b&gt;&lt;p&gt;
+WS2812B&lt;br&gt;
+source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</description>
+<smd name="1" x="-2.577" y="1.6" dx="1.651" dy="1" layer="1"/>
+<smd name="4" x="2.577" y="1.6" dx="1.651" dy="1" layer="1"/>
+<smd name="3" x="2.577" y="-1.6" dx="1.651" dy="1" layer="1"/>
+<smd name="2" x="-2.577" y="-1.6" dx="1.651" dy="1" layer="1"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
+<text x="4.254" y="1.2" size="1.016" layer="25">&gt;NAME</text>
+<text x="4.254" y="-1.6" size="0.6096" layer="27">&gt;VALUE</text>
+<wire x1="-2.4892" y1="2.362203125" x2="-2.4892" y2="2.616203125" width="0.2032" layer="21"/>
+<wire x1="-2.4892" y1="2.616203125" x2="-2.4384" y2="2.616203125" width="0.2032" layer="21"/>
+<wire x1="-2.4384" y1="2.616203125" x2="-2.4384" y2="2.611121875" width="0.2032" layer="21"/>
+<wire x1="-2.4384" y1="2.611121875" x2="2.512059375" y2="2.611121875" width="0.2032" layer="21"/>
+<wire x1="2.512059375" y1="2.611121875" x2="2.512059375" y2="2.37998125" width="0.2032" layer="21"/>
+<wire x1="-2.50951875" y1="-2.319021875" x2="-2.50951875" y2="-2.5908" width="0.2032" layer="21"/>
+<wire x1="-2.50951875" y1="-2.5908" x2="-2.45871875" y2="-2.5908" width="0.2032" layer="21"/>
+<wire x1="-2.45871875" y1="-2.5908" x2="-2.45871875" y2="-2.593340625" width="0.2032" layer="21"/>
+<wire x1="-2.45871875" y1="-2.593340625" x2="2.50951875" y2="-2.593340625" width="0.2032" layer="21"/>
+<wire x1="2.50951875" y1="-2.593340625" x2="2.50951875" y2="-2.36728125" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.8128" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.8636" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.8636" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0.2032" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="WS2812B">
+<description>&lt;b&gt;Intelligent control LED with integrated light source&lt;/b&gt;&lt;p&gt;
+WS2812B&lt;br&gt;
+source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</description>
+<pin name="VDD" x="-5.08" y="5.08" length="short" direction="pwr"/>
+<pin name="DOUT" x="-5.08" y="-2.54" length="short" direction="out"/>
+<pin name="VSS" x="17.78" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="DIN" x="17.78" y="5.08" length="short" direction="in" rot="R180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.286" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WS2812B" prefix="D" uservalue="yes">
+<description>&lt;b&gt;WS2812B&lt;/b&gt; - Intelligent control LED integrated light source
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Power Supply Voltage (VDD): 3.5 to 5.3 V&lt;/li&gt;
+&lt;li&gt;Input Voltage (VI): -0.5 to VDD+0.5 V&lt;/li&gt;
+&lt;li&gt;Operating Junction Temperature (Topt): -25°C to +80°C&lt;/li&gt;
+&lt;li&gt;Storage Temperature Range (Tstg): -55°C to +150°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="WS2812B" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="WS2812B">
+<connects>
+<connect gate="G$1" pin="DIN" pad="4"/>
+<connect gate="G$1" pin="DOUT" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-12503"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4177,6 +4266,8 @@ chip</description>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="isystems" deviceset="CAP_CERAMIC" device="0603" value="10u"/>
 <part name="C7" library="isystems" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="D9" library="SparkFun-LED" deviceset="WS2812B" device=""/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4189,7 +4280,8 @@ chip</description>
 <wire x1="434.34" y1="-10.16" x2="434.34" y2="83.82" width="0.1524" layer="97"/>
 <wire x1="434.34" y1="83.82" x2="434.34" y2="175.26" width="0.1524" layer="97"/>
 <wire x1="434.34" y1="175.26" x2="320.04" y2="175.26" width="0.1524" layer="97"/>
-<wire x1="320.04" y1="175.26" x2="110.49" y2="175.26" width="0.1524" layer="97"/>
+<wire x1="320.04" y1="175.26" x2="218.44" y2="175.26" width="0.1524" layer="97"/>
+<wire x1="218.44" y1="175.26" x2="110.49" y2="175.26" width="0.1524" layer="97"/>
 <wire x1="110.49" y1="175.26" x2="110.49" y2="127" width="0.1524" layer="97"/>
 <wire x1="110.49" y1="127" x2="110.49" y2="53.34" width="0.1524" layer="97"/>
 <wire x1="110.49" y1="53.34" x2="110.49" y2="-10.16" width="0.1524" layer="97"/>
@@ -4199,10 +4291,12 @@ chip</description>
 <wire x1="320.04" y1="127" x2="320.04" y2="83.82" width="0.1524" layer="97"/>
 <wire x1="320.04" y1="83.82" x2="320.04" y2="53.34" width="0.1524" layer="97"/>
 <wire x1="320.04" y1="83.82" x2="434.34" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="110.49" y1="127" x2="320.04" y2="127" width="0.1524" layer="97"/>
+<wire x1="110.49" y1="127" x2="218.44" y2="127" width="0.1524" layer="97"/>
 <text x="199.39" y="20.32" size="1.778" layer="97">key flash</text>
 <text x="153.67" y="171.45" size="2.54" layer="97" font="vector" align="center">POWER AND FILTERING</text>
 <text x="125.476" y="165.1" size="1.27" layer="97" font="vector">VIN: 2.5-6.0V</text>
+<wire x1="218.44" y1="127" x2="320.04" y2="127" width="0.1524" layer="97"/>
+<wire x1="218.44" y1="175.26" x2="218.44" y2="127" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="D3" gate="G$1" x="217.17" y="35.56" rot="R270"/>
@@ -4373,6 +4467,8 @@ chip</description>
 <instance part="GND18" gate="1" x="119.38" y="137.16"/>
 <instance part="C5" gate="G$1" x="119.38" y="149.86"/>
 <instance part="C7" gate="G$1" x="129.54" y="149.86"/>
+<instance part="D9" gate="G$1" x="261.62" y="149.86"/>
+<instance part="GND4" gate="1" x="281.94" y="142.24"/>
 </instances>
 <busses>
 </busses>
@@ -4587,6 +4683,12 @@ chip</description>
 <wire x1="129.54" y1="147.32" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="144.78" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
 <junction x="119.38" y="144.78"/>
+</segment>
+<segment>
+<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="D9" gate="G$1" pin="VSS"/>
+<wire x1="281.94" y1="144.78" x2="281.94" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="147.32" x2="279.4" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -4975,6 +5077,12 @@ chip</description>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="269.24" y1="119.38" x2="271.78" y2="119.38" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="D9" gate="G$1" pin="VDD"/>
+<wire x1="256.54" y1="154.94" x2="251.46" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="154.94" x2="251.46" y2="160.02" width="0.1524" layer="91"/>
+<label x="251.46" y="160.02" size="1.016" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="N$15" class="0">
 <segment>
@@ -5235,6 +5343,11 @@ chip</description>
 <pinref part="J2" gate="G$1" pin="7"/>
 <wire x1="269.24" y1="104.14" x2="281.94" y2="104.14" width="0.1524" layer="91"/>
 <label x="271.526" y="104.648" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D9" gate="G$1" pin="DIN"/>
+<wire x1="279.4" y1="154.94" x2="284.48" y2="154.94" width="0.1524" layer="91"/>
+<label x="284.48" y="154.94" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IO10" class="0">

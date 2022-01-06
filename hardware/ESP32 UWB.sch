@@ -4266,8 +4266,9 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="isystems" deviceset="CAP_CERAMIC" device="0603" value="10u"/>
 <part name="C7" library="isystems" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="D9" library="SparkFun-LED" deviceset="WS2812B" device=""/>
+<part name="D9" library="SparkFun-LED" deviceset="WS2812B" device="" value="WS2812B"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4451,8 +4452,8 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <instance part="J4" gate="G$1" x="127" y="27.94" rot="MR0"/>
 <instance part="GND6" gate="1" x="144.78" y="15.24"/>
 <instance part="GND12" gate="1" x="170.18" y="137.16"/>
-<instance part="R4" gate="G$1" x="353.06" y="106.68" rot="R180"/>
-<instance part="+3V12" gate="G$1" x="342.9" y="114.3" rot="MR0"/>
+<instance part="R4" gate="G$1" x="347.98" y="106.68" rot="R180"/>
+<instance part="+3V12" gate="G$1" x="340.36" y="119.38" rot="MR0"/>
 <instance part="C14" gate="G$1" x="236.22" y="101.6"/>
 <instance part="C15" gate="G$1" x="226.06" y="101.6"/>
 <instance part="C4" gate="G$1" x="330.2" y="35.56"/>
@@ -4469,6 +4470,7 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <instance part="C7" gate="G$1" x="129.54" y="149.86"/>
 <instance part="D9" gate="G$1" x="261.62" y="149.86"/>
 <instance part="GND4" gate="1" x="281.94" y="142.24"/>
+<instance part="GND5" gate="1" x="358.14" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -4690,6 +4692,20 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <wire x1="281.94" y1="144.78" x2="281.94" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="147.32" x2="279.4" y2="147.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$0" pin="!RI!/CLK"/>
+<wire x1="360.68" y1="134.62" x2="358.14" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="358.14" y1="134.62" x2="358.14" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$0" pin="!CTS!"/>
+<wire x1="358.14" y1="119.38" x2="358.14" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="114.3" x2="358.14" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="114.3" x2="358.14" y2="114.3" width="0.1524" layer="91"/>
+<junction x="358.14" y="114.3"/>
+<pinref part="U1" gate="G$0" pin="!DSR!"/>
+<wire x1="360.68" y1="119.38" x2="358.14" y2="119.38" width="0.1524" layer="91"/>
+<junction x="358.14" y="119.38"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -4828,8 +4844,8 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
-<wire x1="347.98" y1="106.68" x2="342.9" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="106.68" x2="342.9" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="106.68" x2="340.36" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="106.68" x2="340.36" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -5025,9 +5041,9 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 </net>
 <net name="D+" class="0">
 <segment>
-<wire x1="358.14" y1="129.54" x2="360.68" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="129.54" x2="360.68" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$0" pin="D+"/>
-<label x="358.14" y="129.54" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="353.06" y="129.54" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="3"/>
@@ -5049,9 +5065,9 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 </net>
 <net name="D-" class="0">
 <segment>
-<wire x1="358.14" y1="127" x2="360.68" y2="127" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="127" x2="360.68" y2="127" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$0" pin="D-"/>
-<label x="358.14" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="353.06" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
@@ -5425,7 +5441,7 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$0" pin="!RST!"/>
-<wire x1="358.14" y1="106.68" x2="360.68" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="106.68" x2="360.68" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

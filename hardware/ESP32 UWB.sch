@@ -754,11 +754,6 @@
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="GND">
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
-<text x="-1.524" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
 <symbol name="VBUS">
 <text x="-1.524" y="1.016" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="VBUS" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
@@ -926,20 +921,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND">
-<description>&lt;b&gt;GND&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VBUS">
+<deviceset name="VBUS" prefix="VBUS">
 <description>&lt;p&gt;VBUS Supply Symbole&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="VBUS" x="0" y="0"/>
@@ -2059,7 +2041,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DWM1000">
+<deviceset name="DWM1000" prefix="U">
 <gates>
 <gate name="G$1" symbol="DWM1000" x="2.54" y="-17.78"/>
 </gates>
@@ -2934,7 +2916,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="V_REG_MIC2920">
+<deviceset name="V_REG_MIC2920" prefix="U">
 <description>MIC2920A (http://www.micrel.com/_PDF/mic2920.pdf) - 400mA output LDO Regulator</description>
 <gates>
 <gate name="G$1" symbol="78XX" x="0" y="0"/>
@@ -4328,7 +4310,6 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="R18" library="isystems" deviceset="RESISTOR" device="0603" value="NC"/>
 <part name="R19" library="isystems" deviceset="RESISTOR" device="0603" value="NC"/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
@@ -4342,10 +4323,10 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="U$3" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$3" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="isystems" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="R9" library="isystems" deviceset="RESISTOR" device="0603" value="10K"/>
@@ -4359,15 +4340,15 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <part name="U5" library="DWM1000" deviceset="DWM1000" device=""/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND45" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND46" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="R8" library="isystems" deviceset="RESISTOR" device="0603" value="1K"/>
 <part name="R13" library="isystems" deviceset="RESISTOR" device="0603" value="1K"/>
 <part name="R14" library="isystems" deviceset="RESISTOR" device="0603" value="1K"/>
 <part name="R15" library="isystems" deviceset="RESISTOR" device="0603" value="10K"/>
-<part name="GND11" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R20" library="isystems" deviceset="RESISTOR" device="0603" value="470R"/>
 <part name="D1" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE" value="GREEN"/>
-<part name="GND16" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="R21" library="isystems" deviceset="RESISTOR" device="0603" value="470R"/>
 <part name="D2" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE" value="GREEN"/>
 <part name="R22" library="isystems" deviceset="RESISTOR" device="0603" value="470R"/>
@@ -4379,9 +4360,9 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="Silicon Labs - CP2102N-A01-GQFN28" deviceset="SILICON_LABS_CP2102N-A01-GQFN28" device="SILICON_LABS_CP2102N-A01-GQFN28_0_3" value="SILICON_LABS_CP2102N-A01-GQFN28SILICON_LABS_CP2102N-A01-GQFN28_0_3"/>
-<part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="U$8" library="microbuilder" deviceset="VBUS" device=""/>
 <part name="R1" library="isystems" deviceset="RESISTOR" device="0603" value="470R"/>
 <part name="D7" library="isystems" deviceset="LED" device="0603_NOOUTLINE" value="BLUE"/>
@@ -4416,7 +4397,7 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <part name="C7" library="isystems" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
 <part name="D9" library="SparkFun-LED" deviceset="WS2812B" device="" value="WS2812B"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="SJ1" library="isystems" deviceset="SJ" device="S"/>
 </parts>
 <sheets>
@@ -4466,7 +4447,6 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <instance part="+3V6" gate="G$1" x="302.26" y="45.72"/>
 <instance part="+3V7" gate="G$1" x="304.8" y="45.72"/>
 <instance part="+3V9" gate="G$1" x="309.88" y="45.72"/>
-<instance part="GND13" gate="1" x="210.82" y="55.88" rot="MR0"/>
 <instance part="R18" gate="G$1" x="299.72" y="36.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="299.72" y="31.75" size="1.27" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="299.72" y="36.83" size="1.016" layer="96" font="vector" ratio="15" rot="R270"/>
@@ -4498,7 +4478,7 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <instance part="GND23" gate="1" x="233.68" y="12.7"/>
 <instance part="GND29" gate="1" x="193.04" y="12.7"/>
 <instance part="+3V4" gate="G$1" x="217.17" y="44.45" rot="MR0"/>
-<instance part="U$3" gate="G$1" x="217.17" y="17.78"/>
+<instance part="U$3" gate="1" x="217.17" y="17.78"/>
 <instance part="GND7" gate="1" x="226.06" y="91.44"/>
 <instance part="+3V1" gate="G$1" x="137.16" y="116.84"/>
 <instance part="GND9" gate="1" x="149.86" y="102.87"/>
@@ -4644,7 +4624,7 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="U$3" gate="1" pin="GND"/>
 <wire x1="217.17" y1="21.59" x2="217.17" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>

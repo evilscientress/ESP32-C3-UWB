@@ -3112,8 +3112,8 @@ chip</description>
 <text x="2.54" y="0" size="1.27" layer="96" font="vector">&gt;VALUE</text>
 <rectangle x1="-1.27" y1="0.508" x2="1.27" y2="1.016" layer="94"/>
 <rectangle x1="-1.27" y1="1.524" x2="1.27" y2="2.032" layer="94"/>
-<pin name="P$1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="P$2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 <symbol name="RESISTOR">
 <wire x1="-2.54" y1="1.016" x2="2.54" y2="1.016" width="0.254" layer="94"/>
@@ -3209,8 +3209,8 @@ chip</description>
 <devices>
 <device name="0805" package="0805">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3218,8 +3218,8 @@ chip</description>
 </device>
 <device name="1206" package="1206">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3227,8 +3227,8 @@ chip</description>
 </device>
 <device name="0603" package="0603">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3236,8 +3236,8 @@ chip</description>
 </device>
 <device name="0402" package="0402">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3245,8 +3245,8 @@ chip</description>
 </device>
 <device name="0603MINI" package="0603-MINI">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3254,8 +3254,8 @@ chip</description>
 </device>
 <device name="0805-NOTHERMALS" package="0805_NOTHERMALS">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3263,8 +3263,8 @@ chip</description>
 </device>
 <device name="_0402" package="_0402">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3272,8 +3272,8 @@ chip</description>
 </device>
 <device name="_0402MP" package="_0402MP">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3281,8 +3281,8 @@ chip</description>
 </device>
 <device name="_0603" package="_0603">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3290,8 +3290,8 @@ chip</description>
 </device>
 <device name="_0603MP" package="_0603MP">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3299,8 +3299,8 @@ chip</description>
 </device>
 <device name="_0805" package="_0805">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3308,8 +3308,8 @@ chip</description>
 </device>
 <device name="_0805MP" package="_0805MP">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3317,8 +3317,8 @@ chip</description>
 </device>
 <device name="1210" package="1210">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4270,7 +4270,7 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <wire x1="233.68" y1="17.78" x2="233.68" y2="15.24" width="0.1524" layer="91"/>
 <label x="234.188" y="13.97" size="1.27" layer="95" ratio="10"/>
 <pinref part="GND23" gate="1" pin="GND"/>
-<pinref part="C7" gate="G$1" pin="P$2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -4294,8 +4294,8 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <wire x1="236.22" y1="99.06" x2="236.22" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="96.52" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
 <junction x="226.06" y="96.52"/>
-<pinref part="C8" gate="G$1" pin="P$2"/>
-<pinref part="C6" gate="G$1" pin="P$2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -4364,9 +4364,9 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
-<pinref part="C10" gate="G$1" pin="P$2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="33.02" x2="330.2" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="P$2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="30.48" x2="330.2" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="33.02" x2="337.82" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="30.48" x2="330.2" y2="30.48" width="0.1524" layer="91"/>
@@ -4428,12 +4428,12 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="C9" gate="G$1" pin="P$2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="124.46" x2="325.12" y2="127" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="127" x2="325.12" y2="129.54" width="0.1524" layer="91"/>
 <junction x="325.12" y="127"/>
 <wire x1="340.36" y1="127" x2="325.12" y2="127" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="P$2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="129.54" x2="340.36" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4453,24 +4453,24 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
-<pinref part="C4" gate="G$1" pin="P$2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="144.78" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="P$2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="142.24" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="144.78" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="142.24" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
 <junction x="198.12" y="142.24"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="P$2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="160.02" y1="147.32" x2="160.02" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="P$2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="147.32" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="P$2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="144.78" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="147.32" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="144.78" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
@@ -4532,9 +4532,9 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <label x="188.976" y="160.528" size="1.27" layer="95" ratio="10"/>
 <pinref part="U1" gate="G$1" pin="OUT"/>
 <wire x1="198.12" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="P$1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="152.4" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="P$1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="152.4" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="157.48" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
 <junction x="198.12" y="157.48"/>
@@ -4580,8 +4580,8 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <junction x="330.2" y="49.53"/>
 <junction x="330.2" y="44.45"/>
 <wire x1="330.2" y1="40.64" x2="330.2" y2="44.45" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="P$1"/>
-<pinref part="C11" gate="G$1" pin="P$1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="40.64" x2="337.82" y2="44.45" width="0.1524" layer="91"/>
 <junction x="337.82" y="44.45"/>
 </segment>
@@ -4596,8 +4596,8 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <wire x1="226.06" y1="109.22" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
 <junction x="226.06" y="109.22"/>
 <wire x1="236.22" y1="109.22" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="P$1"/>
-<pinref part="C6" gate="G$1" pin="P$1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$0" pin="VDD"/>
@@ -4622,13 +4622,13 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <wire x1="335.28" y1="147.32" x2="332.74" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="P$1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="325.12" y1="137.16" x2="325.12" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="139.7" x2="340.36" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="+3V17" gate="G$1" pin="+3V3"/>
 <wire x1="325.12" y1="139.7" x2="325.12" y2="144.78" width="0.1524" layer="91"/>
 <junction x="325.12" y="139.7"/>
-<pinref part="C12" gate="G$1" pin="P$1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="137.16" x2="340.36" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4646,10 +4646,10 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <wire x1="129.54" y1="157.48" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="157.48" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="VBUS"/>
-<pinref part="C1" gate="G$1" pin="P$1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="154.94" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 <junction x="119.38" y="157.48"/>
-<pinref part="C2" gate="G$1" pin="P$1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="154.94" x2="129.54" y2="157.48" width="0.1524" layer="91"/>
 <junction x="129.54" y="157.48"/>
 </segment>
@@ -4776,7 +4776,7 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <wire x1="233.68" y1="27.94" x2="251.46" y2="27.94" width="0.1524" layer="91"/>
 <label x="251.46" y="27.94" size="1.016" layer="95" xref="yes"/>
 <junction x="233.68" y="27.94"/>
-<pinref part="C7" gate="G$1" pin="P$1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="173.99" y1="31.75" x2="173.99" y2="38.1" width="0.1524" layer="91"/>
@@ -4869,7 +4869,7 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <segment>
 <wire x1="160.02" y1="157.48" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
-<pinref part="C3" gate="G$1" pin="P$1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="157.48" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="154.94" x2="160.02" y2="157.48" width="0.1524" layer="91"/>
 <junction x="160.02" y="157.48"/>

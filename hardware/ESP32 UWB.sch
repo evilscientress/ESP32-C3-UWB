@@ -4087,6 +4087,8 @@ chip</description>
 <attributes>
 </attributes>
 <variantdefs>
+<variantdef name="No USB"/>
+<variantdef name="Normal" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0.3">
@@ -4106,8 +4108,12 @@ chip</description>
 <part name="R7" library="isystems" deviceset="RESISTOR" device="0603" value="NC"/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
-<part name="Q2" library="Discrete" deviceset="TRANSISTOR-NPN*" device="-SOT23" value="S8050"/>
-<part name="Q1" library="Discrete" deviceset="TRANSISTOR-NPN*" device="-SOT23" value="S8050"/>
+<part name="Q2" library="Discrete" deviceset="TRANSISTOR-NPN*" device="-SOT23" value="S8050">
+<variant name="No USB" populate="no"/>
+</part>
+<part name="Q1" library="Discrete" deviceset="TRANSISTOR-NPN*" device="-SOT23" value="S8050">
+<variant name="No USB" populate="no"/>
+</part>
 <part name="D1" library="Discrete" deviceset="D*" device="'0805'" value="B5819WS"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="SW1" library="MySMD" deviceset="PB157" device="" value="BUTTON"/>
@@ -4123,8 +4129,12 @@ chip</description>
 <part name="R4" library="isystems" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="R3" library="isystems" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="R1" library="isystems" deviceset="RESISTOR" device="0603" value="470R"/>
-<part name="R5" library="isystems" deviceset="RESISTOR" device="0603" value="1K"/>
-<part name="R6" library="isystems" deviceset="RESISTOR" device="0603" value="1K"/>
+<part name="R5" library="isystems" deviceset="RESISTOR" device="0603" value="1K">
+<variant name="No USB" populate="no"/>
+</part>
+<part name="R6" library="isystems" deviceset="RESISTOR" device="0603" value="1K">
+<variant name="No USB" populate="no"/>
+</part>
 <part name="J1" library="Connector" deviceset="HEADER-20P" device="-2.54"/>
 <part name="J2" library="Connector" deviceset="HEADER-12P" device="-2.54"/>
 <part name="GND44" library="SparkFun" deviceset="GND" device=""/>
@@ -4152,25 +4162,41 @@ chip</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="U3" library="Silicon Labs - CP2102N-A01-GQFN28" deviceset="SILICON_LABS_CP2102N-A01-GQFN28" device="SILICON_LABS_CP2102N-A01-GQFN28_0_3" value="SILICON_LABS_CP2102N-A01-GQFN28SILICON_LABS_CP2102N-A01-GQFN28_0_3"/>
+<part name="U3" library="Silicon Labs - CP2102N-A01-GQFN28" deviceset="SILICON_LABS_CP2102N-A01-GQFN28" device="SILICON_LABS_CP2102N-A01-GQFN28_0_3" value="SILICON_LABS_CP2102N-A01-GQFN28SILICON_LABS_CP2102N-A01-GQFN28_0_3">
+<variant name="No USB" populate="no"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="U$8" library="microbuilder" deviceset="VBUS" device=""/>
-<part name="R12" library="isystems" deviceset="RESISTOR" device="0603" value="470R"/>
-<part name="LED2" library="isystems" deviceset="LED" device="0603_NOOUTLINE" value="BLUE"/>
-<part name="R13" library="isystems" deviceset="RESISTOR" device="0603" value="470R"/>
-<part name="LED3" library="isystems" deviceset="LED" device="0603_NOOUTLINE" value="RED"/>
+<part name="R12" library="isystems" deviceset="RESISTOR" device="0603" value="470R">
+<variant name="No USB" populate="no"/>
+</part>
+<part name="LED2" library="isystems" deviceset="LED" device="0603_NOOUTLINE" value="BLUE">
+<variant name="No USB" populate="no"/>
+</part>
+<part name="R13" library="isystems" deviceset="RESISTOR" device="0603" value="470R">
+<variant name="No USB" populate="no"/>
+</part>
+<part name="LED3" library="isystems" deviceset="LED" device="0603_NOOUTLINE" value="RED">
+<variant name="No USB" populate="no"/>
+</part>
 <part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_MIC2920" device="" value="AMS1117-3.3"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
-<part name="C9" library="isystems" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C12" library="isystems" deviceset="CAP_CERAMIC" device="0603" value="4.7uF"/>
+<part name="C9" library="isystems" deviceset="CAP_CERAMIC" device="0603" value="100n">
+<variant name="No USB" populate="no"/>
+</part>
+<part name="C12" library="isystems" deviceset="CAP_CERAMIC" device="0603" value="4.7uF">
+<variant name="No USB" populate="no"/>
+</part>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J3" library="10118194-0001LF" deviceset="10118194-0001LF" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="isystems" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R16" library="isystems" deviceset="RESISTOR" device="0603" value="1k">
+<variant name="No USB" populate="no"/>
+</part>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="C8" library="isystems" deviceset="CAP_CERAMIC" device="0603" value="10u"/>
 <part name="C6" library="isystems" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
@@ -4220,6 +4246,10 @@ chip</description>
 <text x="125.476" y="165.1" size="1.27" layer="97" font="vector">VIN: 2.5-6.0V</text>
 <wire x1="218.44" y1="127" x2="320.04" y2="127" width="0.1524" layer="97"/>
 <wire x1="218.44" y1="175.26" x2="218.44" y2="127" width="0.1524" layer="97"/>
+<text x="391.16" y="-17.78" size="3.81" layer="97" ratio="12">&gt;ASSEMBLY_VARIANT</text>
+<text x="335.28" y="-17.78" size="3.81" layer="97" ratio="13">Assembly Variant:</text>
+<text x="335.28" y="-25.4" size="3.81" layer="97" ratio="13">Print Date:</text>
+<text x="370.84" y="-25.4" size="3.81" layer="97" ratio="12">&gt;PLOT_DATE_TIME</text>
 </plain>
 <instances>
 <instance part="D2" gate="G$1" x="217.17" y="35.56" rot="R270"/>

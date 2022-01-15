@@ -4498,7 +4498,7 @@
     (property "Value" "ESP32-C3-MINI-1-N4" (id 1) (at 96.52 125.73 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "Espressif:ESP32-C3-MINI-1_Hand-Soldering" (id 2) (at 109.22 102.87 0)
+    (property "Footprint" "Espressif:ESP32-C3-MINI-1" (id 2) (at 109.22 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 109.22 102.87 0)
@@ -5471,7 +5471,7 @@
       (reference "U1") (unit 1) (value "AMS1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
     (path "/bdf9dfdb-3e3e-46cc-8bb8-4372561c164b"
-      (reference "U2") (unit 1) (value "ESP32-C3-MINI-1-N4") (footprint "Espressif:ESP32-C3-MINI-1_Hand-Soldering")
+      (reference "U2") (unit 1) (value "ESP32-C3-MINI-1-N4") (footprint "Espressif:ESP32-C3-MINI-1")
     )
     (path "/44d6780b-0f7d-4066-bfb2-bff50f00afa0"
       (reference "U3") (unit 1) (value "SILICON_LABS_CP2102N-A01-GQFN28SILICON_LABS_CP2102N-A01-GQFN28_0_3") (footprint "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm")

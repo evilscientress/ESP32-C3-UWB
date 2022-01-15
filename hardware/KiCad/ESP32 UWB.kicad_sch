@@ -3387,7 +3387,7 @@
   (symbol (lib_id "Device:R") (at 220.98 156.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0368658f-3125-4888-be8d-2d00cf819e46)
-    (property "Reference" "R11" (id 0) (at 226.06 156.21 0)
+    (property "Reference" "R12" (id 0) (at 226.06 156.21 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "NC" (id 1) (at 220.98 156.21 0)
@@ -3438,7 +3438,7 @@
   (symbol (lib_id "Device:R") (at 128.27 166.37 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 06d56cea-efec-4ee2-a30e-da196d83ccb4)
-    (property "Reference" "R2" (id 0) (at 132.08 165.1 0)
+    (property "Reference" "R4" (id 0) (at 132.08 165.1 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "470R" (id 1) (at 127 165.1 0)
@@ -3473,7 +3473,7 @@
   (symbol (lib_id "Device:LED") (at 321.31 81.28 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 111becb9-cb80-417e-8fbe-97b6e8030333)
-    (property "Reference" "LED3" (id 0) (at 316.23 84.455 0)
+    (property "Reference" "D8" (id 0) (at 316.23 85.09 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "RED" (id 1) (at 316.23 78.486 0)
@@ -3559,7 +3559,7 @@
   (symbol (lib_id "Device:C") (at 109.22 44.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 196e2e1c-99db-48a2-923e-0258bca0805d)
-    (property "Reference" "C4" (id 0) (at 111.76 41.91 0)
+    (property "Reference" "C5" (id 0) (at 111.76 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "10u" (id 1) (at 111.76 44.45 0)
@@ -3610,7 +3610,7 @@
   (symbol (lib_id "Device:C") (at 116.84 44.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 229089b5-d96a-45a7-930c-5b21e68180d7)
-    (property "Reference" "C5" (id 0) (at 119.38 41.91 0)
+    (property "Reference" "C4" (id 0) (at 119.38 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "100n" (id 1) (at 119.38 44.45 0)
@@ -3696,7 +3696,7 @@
   (symbol (lib_id "LED:SK6812MINI") (at 170.18 45.72 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2d2e3cbd-a7da-4440-b490-4f19b09f58e0)
-    (property "Reference" "LED1" (id 0) (at 171.45 52.705 0)
+    (property "Reference" "U5" (id 0) (at 171.45 52.705 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "SK6812_3535" (id 1) (at 171.45 54.61 0)
@@ -3846,7 +3846,7 @@
   (symbol (lib_id "Device:LED") (at 332.74 165.1 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 49edae70-5dd4-4020-bb66-e19aaf00297f)
-    (property "Reference" "D3" (id 0) (at 337.82 168.275 0)
+    (property "Reference" "D5" (id 0) (at 337.82 168.275 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "GREEN" (id 1) (at 337.82 162.306 0)
@@ -3904,7 +3904,7 @@
   (symbol (lib_id "Device:R") (at 332.74 71.12 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 52194c94-e7df-49ff-beb1-04a1b4f2344e)
-    (property "Reference" "R12" (id 0) (at 332.994 68.326 0)
+    (property "Reference" "R7" (id 0) (at 332.994 68.326 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "470R" (id 1) (at 332.232 72.644 0)
@@ -4063,7 +4063,7 @@
   (symbol (lib_id "Device:LED") (at 332.74 182.88 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6647797e-9035-4291-9495-e7c7119a3fd1)
-    (property "Reference" "D5" (id 0) (at 337.82 186.055 0)
+    (property "Reference" "D4" (id 0) (at 337.82 186.055 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "GREEN" (id 1) (at 337.82 180.086 0)
@@ -4118,7 +4118,7 @@
   (symbol (lib_id "Device:R") (at 321.31 191.77 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 77482be5-b12a-41cb-b345-89c6c297fbe1)
-    (property "Reference" "R22" (id 0) (at 321.056 188.976 0)
+    (property "Reference" "R21" (id 0) (at 321.056 188.976 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "470R" (id 1) (at 321.818 193.294 0)
@@ -4153,7 +4153,7 @@
   (symbol (lib_id "Device:R") (at 104.14 156.21 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 822cf157-ecb8-46d7-8cc6-5f0248fd6b37)
-    (property "Reference" "R1" (id 0) (at 100.33 154.94 90)
+    (property "Reference" "R3" (id 0) (at 100.33 154.94 90)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "470R" (id 1) (at 105.41 153.67 90)
@@ -4243,7 +4243,7 @@
   (symbol (lib_id "Device:LED") (at 332.74 173.99 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8dc0cb95-6a64-4146-a98b-201faa29efcd)
-    (property "Reference" "D4" (id 0) (at 337.82 177.165 0)
+    (property "Reference" "D6" (id 0) (at 337.82 177.165 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "GREEN" (id 1) (at 337.82 171.196 0)
@@ -4278,7 +4278,7 @@
   (symbol (lib_id "Device:LED") (at 332.74 191.77 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9c3dbdfa-1d03-4398-9be7-f28a12c9bf19)
-    (property "Reference" "D6" (id 0) (at 337.82 194.945 0)
+    (property "Reference" "D3" (id 0) (at 337.82 194.945 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "GREEN" (id 1) (at 337.82 188.976 0)
@@ -4297,7 +4297,7 @@
   (symbol (lib_id "Device:R") (at 208.28 156.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9d221b3b-0bfe-4439-a426-0f2594b9c7bf)
-    (property "Reference" "R7" (id 0) (at 213.36 156.21 0)
+    (property "Reference" "R9" (id 0) (at 213.36 156.21 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "NC" (id 1) (at 208.28 156.21 0)
@@ -4316,7 +4316,7 @@
   (symbol (lib_id "Device:R") (at 151.13 152.4 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9f5a0760-2470-4cfd-9545-71255379b79a)
-    (property "Reference" "R4" (id 0) (at 152.4 148.59 90)
+    (property "Reference" "R2" (id 0) (at 152.4 148.59 90)
       (effects (font (size 1.27 1.0795)) (justify right top))
     )
     (property "Value" "10K" (id 1) (at 152.4 153.67 90)
@@ -4367,7 +4367,7 @@
   (symbol (lib_id "Device:R") (at 321.31 165.1 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid aed766cc-c8d5-45cf-84bc-1c29216ccceb)
-    (property "Reference" "R19" (id 0) (at 321.056 162.306 0)
+    (property "Reference" "R22" (id 0) (at 321.056 162.306 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "470R" (id 1) (at 321.818 166.624 0)
@@ -4386,7 +4386,7 @@
   (symbol (lib_id "Device:C") (at 241.3 156.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b0bd4229-67bb-4dc7-9d0c-fc6ab8405f53)
-    (property "Reference" "C10" (id 0) (at 243.84 153.67 0)
+    (property "Reference" "C12" (id 0) (at 243.84 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "10u" (id 1) (at 243.84 156.21 0)
@@ -4498,7 +4498,7 @@
     (property "Value" "ESP32-C3-MINI-1-N4" (id 1) (at 96.52 125.73 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "Espressif:ESP32-C3-MINI-1" (id 2) (at 109.22 102.87 0)
+    (property "Footprint" "Espressif:ESP32-C3-MINI-1_Hand-Soldering" (id 2) (at 109.22 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 109.22 102.87 0)
@@ -4599,7 +4599,7 @@
   (symbol (lib_id "Device:R") (at 278.13 40.64 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cb61a608-4d4c-465e-98f1-04dc591a70ac)
-    (property "Reference" "R16" (id 0) (at 279.654 38.1 0)
+    (property "Reference" "R17" (id 0) (at 279.654 38.1 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "1k" (id 1) (at 275.463 38.1 0)
@@ -4634,7 +4634,7 @@
   (symbol (lib_id "Device:R") (at 144.78 158.75 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cfdd684c-0d04-48e4-a62a-4b899d9ad32f)
-    (property "Reference" "R3" (id 0) (at 146.177 161.036 0)
+    (property "Reference" "R1" (id 0) (at 146.177 161.036 0)
       (effects (font (size 1.27 1.0795)) (justify right top))
     )
     (property "Value" "10K" (id 1) (at 139.7 158.75 0)
@@ -4653,7 +4653,7 @@
   (symbol (lib_id "Device:R") (at 213.36 156.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d0164702-426e-4c87-abe5-fbfeda4c6ede)
-    (property "Reference" "R9" (id 0) (at 218.44 156.21 0)
+    (property "Reference" "R11" (id 0) (at 218.44 156.21 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "10k" (id 1) (at 213.36 156.21 0)
@@ -4688,7 +4688,7 @@
   (symbol (lib_id "Device:R") (at 215.9 156.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d1c3595d-d061-4c53-823c-19aa0d9a8865)
-    (property "Reference" "R10" (id 0) (at 220.98 156.21 0)
+    (property "Reference" "R13" (id 0) (at 220.98 156.21 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "10k" (id 1) (at 215.9 156.21 0)
@@ -4790,7 +4790,7 @@
   (symbol (lib_id "Device:C") (at 144.78 171.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e1df4b0e-82c2-4440-ac04-3c42a4367634)
-    (property "Reference" "C7" (id 0) (at 147.32 168.91 0)
+    (property "Reference" "C8" (id 0) (at 147.32 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "100n" (id 1) (at 147.32 171.45 0)
@@ -4892,7 +4892,7 @@
   (symbol (lib_id "Device:R") (at 321.31 182.88 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e9f702de-b437-4ae2-a03e-b707e9309898)
-    (property "Reference" "R21" (id 0) (at 321.056 180.086 0)
+    (property "Reference" "R19" (id 0) (at 321.056 180.086 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "470R" (id 1) (at 321.818 184.404 0)
@@ -4930,7 +4930,7 @@
   (symbol (lib_id "Device:R") (at 259.08 127 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ee5ea3d6-1422-40d3-882b-9d8b9c72bbba)
-    (property "Reference" "R17" (id 0) (at 261.874 126.746 0)
+    (property "Reference" "R16" (id 0) (at 261.874 126.746 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "1K" (id 1) (at 259.08 127 0)
@@ -4949,7 +4949,7 @@
   (symbol (lib_id "Device:R") (at 332.74 81.28 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f28095b2-5bdd-4916-8fd7-8ee2cde7e2ae)
-    (property "Reference" "R13" (id 0) (at 332.994 78.486 0)
+    (property "Reference" "R8" (id 0) (at 332.994 78.486 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "470R" (id 1) (at 332.232 82.804 0)
@@ -5075,7 +5075,7 @@
   (symbol (lib_id "Device:LED") (at 321.31 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fa7a68a5-1582-4679-bafe-2a2ea2733064)
-    (property "Reference" "LED2" (id 0) (at 316.23 74.295 0)
+    (property "Reference" "D7" (id 0) (at 316.23 74.295 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "BLUE" (id 1) (at 316.23 68.326 0)
@@ -5094,7 +5094,7 @@
   (symbol (lib_id "Device:C") (at 44.45 102.87 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fa7a6ff2-91e8-47a3-8788-97a1388c06f6)
-    (property "Reference" "C8" (id 0) (at 46.99 100.33 0)
+    (property "Reference" "C7" (id 0) (at 46.99 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "10u" (id 1) (at 46.99 102.87 0)
@@ -5148,7 +5148,7 @@
   (symbol (lib_id "Device:C") (at 259.08 44.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ff355897-ead3-4120-8dcb-1bb00ca0370c)
-    (property "Reference" "C12" (id 0) (at 261.62 41.91 0)
+    (property "Reference" "C10" (id 0) (at 261.62 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "4.7uF" (id 1) (at 261.62 44.45 0)
@@ -5167,7 +5167,7 @@
   (symbol (lib_id "Device:R") (at 210.82 156.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ff3f0dce-48a8-4a4e-9a85-b6808253807b)
-    (property "Reference" "R8" (id 0) (at 215.9 156.21 0)
+    (property "Reference" "R10" (id 0) (at 215.9 156.21 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Value" "NC" (id 1) (at 210.82 156.21 0)
@@ -5323,32 +5323,32 @@
     (path "/bc90f0c0-612e-411d-9c41-1a8ebb2b39fc"
       (reference "C3") (unit 1) (value "10uF/16V") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/196e2e1c-99db-48a2-923e-0258bca0805d"
-      (reference "C4") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
     (path "/229089b5-d96a-45a7-930c-5b21e68180d7"
-      (reference "C5") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/196e2e1c-99db-48a2-923e-0258bca0805d"
+      (reference "C5") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/d9b1315d-9c8a-4956-90df-e5669cf68010"
       (reference "C6") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/e1df4b0e-82c2-4440-ac04-3c42a4367634"
-      (reference "C7") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
     (path "/fa7a6ff2-91e8-47a3-8788-97a1388c06f6"
-      (reference "C8") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C7") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/e1df4b0e-82c2-4440-ac04-3c42a4367634"
+      (reference "C8") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/3487b883-d132-4810-af37-6ee3794b3652"
       (reference "C9") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/b0bd4229-67bb-4dc7-9d0c-fc6ab8405f53"
-      (reference "C10") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    (path "/ff355897-ead3-4120-8dcb-1bb00ca0370c"
+      (reference "C10") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/c15af059-8b9d-458f-a49d-de88857a3451"
       (reference "C11") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/ff355897-ead3-4120-8dcb-1bb00ca0370c"
-      (reference "C12") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    (path "/b0bd4229-67bb-4dc7-9d0c-fc6ab8405f53"
+      (reference "C12") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/c3c15276-82a5-4b64-990f-7f503a97141e"
       (reference "D1") (unit 1) (value "B5819WS") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
@@ -5356,17 +5356,23 @@
     (path "/f321809c-ab7a-4356-9b11-4c0d46c421ba"
       (reference "D2") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/49edae70-5dd4-4020-bb66-e19aaf00297f"
+    (path "/9c3dbdfa-1d03-4398-9be7-f28a12c9bf19"
       (reference "D3") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/8dc0cb95-6a64-4146-a98b-201faa29efcd"
+    (path "/6647797e-9035-4291-9495-e7c7119a3fd1"
       (reference "D4") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/6647797e-9035-4291-9495-e7c7119a3fd1"
+    (path "/49edae70-5dd4-4020-bb66-e19aaf00297f"
       (reference "D5") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/9c3dbdfa-1d03-4398-9be7-f28a12c9bf19"
+    (path "/8dc0cb95-6a64-4146-a98b-201faa29efcd"
       (reference "D6") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    )
+    (path "/fa7a68a5-1582-4679-bafe-2a2ea2733064"
+      (reference "D7") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+    )
+    (path "/111becb9-cb80-417e-8fbe-97b6e8030333"
+      (reference "D8") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/f6c96c0d-4cf7-4e5a-ad96-cb52e5fda138"
       (reference "J1") (unit 1) (value "HEADER-20P-2.54") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical")
@@ -5377,32 +5383,23 @@
     (path "/4fbf7295-52ca-4bf6-b81b-f54f8903681f"
       (reference "J3") (unit 1) (value "10118194-0001LF") (footprint "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal")
     )
-    (path "/2d2e3cbd-a7da-4440-b490-4f19b09f58e0"
-      (reference "LED1") (unit 1) (value "SK6812_3535") (footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm")
-    )
-    (path "/fa7a68a5-1582-4679-bafe-2a2ea2733064"
-      (reference "LED2") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
-    )
-    (path "/111becb9-cb80-417e-8fbe-97b6e8030333"
-      (reference "LED3") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
-    )
     (path "/88ec470b-1595-4040-bc2a-91476c84ca2e"
       (reference "Q1") (unit 1) (value "S8050") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/b6fc4182-53d3-44c8-80e1-53918daa9139"
       (reference "Q2") (unit 1) (value "S8050") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/822cf157-ecb8-46d7-8cc6-5f0248fd6b37"
-      (reference "R1") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/06d56cea-efec-4ee2-a30e-da196d83ccb4"
-      (reference "R2") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
     (path "/cfdd684c-0d04-48e4-a62a-4b899d9ad32f"
-      (reference "R3") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R1") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/9f5a0760-2470-4cfd-9545-71255379b79a"
-      (reference "R4") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R2") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/822cf157-ecb8-46d7-8cc6-5f0248fd6b37"
+      (reference "R3") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/06d56cea-efec-4ee2-a30e-da196d83ccb4"
+      (reference "R4") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/e382fedc-c868-44fd-9740-47cc05b15c1c"
       (reference "R5") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -5410,26 +5407,26 @@
     (path "/44f6de44-c3d8-405f-ac4c-196fb6e5deee"
       (reference "R6") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/9d221b3b-0bfe-4439-a426-0f2594b9c7bf"
-      (reference "R7") (unit 1) (value "NC") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/ff3f0dce-48a8-4a4e-9a85-b6808253807b"
-      (reference "R8") (unit 1) (value "NC") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/d0164702-426e-4c87-abe5-fbfeda4c6ede"
-      (reference "R9") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/d1c3595d-d061-4c53-823c-19aa0d9a8865"
-      (reference "R10") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/0368658f-3125-4888-be8d-2d00cf819e46"
-      (reference "R11") (unit 1) (value "NC") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
     (path "/52194c94-e7df-49ff-beb1-04a1b4f2344e"
-      (reference "R12") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R7") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/f28095b2-5bdd-4916-8fd7-8ee2cde7e2ae"
-      (reference "R13") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R8") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/9d221b3b-0bfe-4439-a426-0f2594b9c7bf"
+      (reference "R9") (unit 1) (value "NC") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/ff3f0dce-48a8-4a4e-9a85-b6808253807b"
+      (reference "R10") (unit 1) (value "NC") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/d0164702-426e-4c87-abe5-fbfeda4c6ede"
+      (reference "R11") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/0368658f-3125-4888-be8d-2d00cf819e46"
+      (reference "R12") (unit 1) (value "NC") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/d1c3595d-d061-4c53-823c-19aa0d9a8865"
+      (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/eab7c737-4450-406f-9f80-b2e18bb45dd6"
       (reference "R14") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -5437,25 +5434,25 @@
     (path "/644a2620-03c0-4432-a2a3-b8177b485182"
       (reference "R15") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/cb61a608-4d4c-465e-98f1-04dc591a70ac"
-      (reference "R16") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
     (path "/ee5ea3d6-1422-40d3-882b-9d8b9c72bbba"
-      (reference "R17") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R16") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/cb61a608-4d4c-465e-98f1-04dc591a70ac"
+      (reference "R17") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/126f84ae-523c-4569-b046-7ee124f46a5a"
       (reference "R18") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/aed766cc-c8d5-45cf-84bc-1c29216ccceb"
+    (path "/e9f702de-b437-4ae2-a03e-b707e9309898"
       (reference "R19") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/fae21104-6d06-49da-9a8b-b74f2e8a3574"
       (reference "R20") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/e9f702de-b437-4ae2-a03e-b707e9309898"
+    (path "/77482be5-b12a-41cb-b345-89c6c297fbe1"
       (reference "R21") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/77482be5-b12a-41cb-b345-89c6c297fbe1"
+    (path "/aed766cc-c8d5-45cf-84bc-1c29216ccceb"
       (reference "R22") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/f95c6027-15cc-4326-9d31-38f6dba6baec"
@@ -5471,13 +5468,16 @@
       (reference "U1") (unit 1) (value "AMS1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
     (path "/bdf9dfdb-3e3e-46cc-8bb8-4372561c164b"
-      (reference "U2") (unit 1) (value "ESP32-C3-MINI-1-N4") (footprint "Espressif:ESP32-C3-MINI-1")
+      (reference "U2") (unit 1) (value "ESP32-C3-MINI-1-N4") (footprint "Espressif:ESP32-C3-MINI-1_Hand-Soldering")
     )
     (path "/44d6780b-0f7d-4066-bfb2-bff50f00afa0"
       (reference "U3") (unit 1) (value "SILICON_LABS_CP2102N-A01-GQFN28SILICON_LABS_CP2102N-A01-GQFN28_0_3") (footprint "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm")
     )
     (path "/5bd9bd00-e17c-4137-8daf-974f4e7eb479"
       (reference "U4") (unit 1) (value "DWM1000") (footprint "ESP32 UWB:DWM1000")
+    )
+    (path "/2d2e3cbd-a7da-4440-b490-4f19b09f58e0"
+      (reference "U5") (unit 1) (value "SK6812_3535") (footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm")
     )
   )
 )

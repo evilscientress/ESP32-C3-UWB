@@ -3355,7 +3355,7 @@
     (property "Value" "BUTTON" (id 1) (at 107.442 173.228 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" (id 2) (at 104.14 168.91 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1" (id 2) (at 104.14 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 104.14 168.91 0)
@@ -3667,7 +3667,7 @@
     (property "Value" "BUTTON" (id 1) (at 88.392 173.228 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" (id 2) (at 85.09 168.91 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1" (id 2) (at 85.09 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 85.09 168.91 0)
@@ -5459,10 +5459,10 @@
       (reference "SJ1") (unit 1) (value "SJS") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
     )
     (path "/26769327-3160-41f1-82e7-11d5d542abde"
-      (reference "SW1") (unit 1) (value "BUTTON") (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK")
+      (reference "SW1") (unit 1) (value "BUTTON") (footprint "Button_Switch_SMD:SW_SPST_EVQPE1")
     )
     (path "/006bc43b-d3a8-4a38-a8dc-5a24da3f9b4d"
-      (reference "SW2") (unit 1) (value "BUTTON") (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK")
+      (reference "SW2") (unit 1) (value "BUTTON") (footprint "Button_Switch_SMD:SW_SPST_EVQPE1")
     )
     (path "/713f8bf8-d771-4862-bb18-7b6f3b027ba3"
       (reference "U1") (unit 1) (value "AMS1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")

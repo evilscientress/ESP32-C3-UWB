@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/laura/Projekte/ESP32-C3-UWB/hardware/KiCad/ESP32 UWB.kicad_sch</source>
-    <date>So 16 Jan 2022 14:38:40 CET</date>
+    <date>So 16 Jan 2022 14:56:42 CET</date>
     <tool>Eeschema 6.0.0</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -28,12 +28,14 @@
       <value>10uF/25V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">CL10X106MO8NRNC</field>
         <field name="LCSC">C96446</field>
+        <field name="Part">CL10X106MO8NRNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C96446"/>
-      <property name="Alternative" value="CL10X106MO8NRNC"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CL10X106MO8NRNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -43,12 +45,14 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">CL10B104KB8NNWC</field>
         <field name="LCSC">C14663</field>
+        <field name="Part">CL10B104KB8NNWC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C14663"/>
-      <property name="Alternative" value="CL10B104KB8NNWC"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CL10B104KB8NNWC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -58,12 +62,14 @@
       <value>10uF/25V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">CL10X106MO8NRNC</field>
         <field name="LCSC">C96446</field>
+        <field name="Part">CL10X106MO8NRNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C96446"/>
-      <property name="Alternative" value="CL10X106MO8NRNC"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CL10X106MO8NRNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -73,12 +79,14 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">CL10B104KB8NNWC</field>
         <field name="LCSC">C14663</field>
+        <field name="Part">CL10B104KB8NNWC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C14663"/>
-      <property name="Alternative" value="CL10B104KB8NNWC"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CL10B104KB8NNWC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -88,12 +96,14 @@
       <value>10uF/25V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">CL10X106MO8NRNC</field>
         <field name="LCSC">C96446</field>
+        <field name="Part">CL10X106MO8NRNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C96446"/>
-      <property name="Alternative" value="CL10X106MO8NRNC"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CL10X106MO8NRNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -103,12 +113,14 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">CL10B104KB8NNWC</field>
         <field name="LCSC">C14663</field>
+        <field name="Part">CL10B104KB8NNWC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C14663"/>
-      <property name="Alternative" value="CL10B104KB8NNWC"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CL10B104KB8NNWC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -118,12 +130,14 @@
       <value>10uF/25V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">CL10X106MO8NRNC</field>
         <field name="LCSC">C96446</field>
+        <field name="Part">CL10X106MO8NRNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C96446"/>
-      <property name="Alternative" value="CL10X106MO8NRNC"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CL10X106MO8NRNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -133,12 +147,14 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">CL10B104KB8NNWC</field>
         <field name="LCSC">C14663</field>
+        <field name="Part">CL10B104KB8NNWC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C14663"/>
-      <property name="Alternative" value="CL10B104KB8NNWC"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CL10B104KB8NNWC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -148,12 +164,14 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">CL10B104KB8NNWC</field>
         <field name="LCSC">C14663</field>
+        <field name="Part">CL10B104KB8NNWC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C14663"/>
-      <property name="Alternative" value="CL10B104KB8NNWC"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CL10B104KB8NNWC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -163,12 +181,14 @@
       <value>4.7uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">CL10A475KO8NNNC</field>
         <field name="LCSC">C19666</field>
+        <field name="Part">CL10A475KO8NNNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C19666"/>
-      <property name="Alternative" value="CL10A475KO8NNNC"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CL10A475KO8NNNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -178,12 +198,14 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">CL10B104KB8NNWC</field>
         <field name="LCSC">C14663</field>
+        <field name="Part">CL10B104KB8NNWC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C14663"/>
-      <property name="Alternative" value="CL10B104KB8NNWC"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CL10B104KB8NNWC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -193,12 +215,14 @@
       <value>10uF/25V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">CL10X106MO8NRNC</field>
         <field name="LCSC">C96446</field>
+        <field name="Part">CL10X106MO8NRNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C96446"/>
-      <property name="Alternative" value="CL10X106MO8NRNC"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CL10X106MO8NRNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -208,12 +232,14 @@
       <value>B5819WS</value>
       <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <fields>
-        <field name="Alternative">NSVR1020MW2T1G</field>
         <field name="LCSC">C191023</field>
+        <field name="Part">NSVR1020MW2T1G</field>
       </fields>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <property name="LCSC" value="C191023"/>
-      <property name="Alternative" value="NSVR1020MW2T1G"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="NSVR1020MW2T1G"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -223,14 +249,16 @@
       <value>POWER (BLUE)</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">150080BS75000</field>
         <field name="LCSC">C2293</field>
         <field name="Meaning">PWR</field>
+        <field name="Part">150080BS75000</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Meaning" value="PWR"/>
       <property name="LCSC" value="C2293"/>
-      <property name="Alternative" value="150080BS75000"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="150080BS75000"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -240,14 +268,16 @@
       <value>UWB RXOK (YELLOW)</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">LY R976-PS-36</field>
         <field name="LCSC">C2296</field>
         <field name="Meaning">RXOK</field>
+        <field name="Part">LY R976-PS-36</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Meaning" value="RXOK"/>
       <property name="LCSC" value="C2296"/>
-      <property name="Alternative" value="LY R976-PS-36"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="LY R976-PS-36"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -257,14 +287,16 @@
       <value>UWB SFD (YELLOW)</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">LY R976-PS-36</field>
         <field name="LCSC">C2296</field>
         <field name="Meaning">SFD</field>
+        <field name="Part">LY R976-PS-36</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Meaning" value="SFD"/>
       <property name="LCSC" value="C2296"/>
-      <property name="Alternative" value="LY R976-PS-36"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="LY R976-PS-36"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -274,14 +306,16 @@
       <value>UWB TX (YELLOW)</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">LY R976-PS-36</field>
         <field name="LCSC">C2296</field>
         <field name="Meaning">TX</field>
+        <field name="Part">LY R976-PS-36</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="LCSC" value="C2296"/>
       <property name="Meaning" value="TX"/>
-      <property name="Alternative" value="LY R976-PS-36"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="LY R976-PS-36"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -291,14 +325,16 @@
       <value>UWB RX (YELLOW)</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">LY R976-PS-36</field>
         <field name="LCSC">C2296</field>
         <field name="Meaning">RX</field>
+        <field name="Part">LY R976-PS-36</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Meaning" value="RX"/>
       <property name="LCSC" value="C2296"/>
-      <property name="Alternative" value="LY R976-PS-36"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="LY R976-PS-36"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -308,14 +344,16 @@
       <value>USB TX (RED)</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">SML-D12U1WT86</field>
         <field name="LCSC">C2286</field>
         <field name="Meaning">TX</field>
+        <field name="Part">SML-D12U1WT86</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Meaning" value="TX"/>
       <property name="LCSC" value="C2286"/>
-      <property name="Alternative" value="SML-D12U1WT86"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="SML-D12U1WT86"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -325,14 +363,16 @@
       <value>USB RX (RED)</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">SML-D12U1WT86</field>
         <field name="LCSC">C2286</field>
         <field name="Meaning">RX</field>
+        <field name="Part">SML-D12U1WT86</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Meaning" value="RX"/>
       <property name="LCSC" value="C2286"/>
-      <property name="Alternative" value="SML-D12U1WT86"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="SML-D12U1WT86"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -342,12 +382,14 @@
       <value>HEADER-20P-2.54</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Alternative">PH1-20-UA</field>
         <field name="LCSC">C50981</field>
+        <field name="Part">PH1-20-UA</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x20" description="Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="LCSC" value="C50981"/>
-      <property name="Alternative" value="PH1-20-UA"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="PH1-20-UA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -357,12 +399,14 @@
       <value>HEADER-12P-2.54</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Alternative">PH1-12-UA</field>
         <field name="LCSC">C225487</field>
+        <field name="Part">PH1-12-UA</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="LCSC" value="C225487"/>
-      <property name="Alternative" value="PH1-12-UA"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="PH1-12-UA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -372,12 +416,14 @@
       <value>10118194-0001LF</value>
       <footprint>Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
       <fields>
-        <field name="Alternative">10118194-0001LF</field>
         <field name="LCSC">C132563</field>
+        <field name="Part">10118194-0001LF</field>
       </fields>
       <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
       <property name="LCSC" value="C132563"/>
-      <property name="Alternative" value="10118194-0001LF"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="10118194-0001LF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -387,12 +433,14 @@
       <value>S8050</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="Alternative">SS8050-G</field>
         <field name="LCSC">C2146</field>
+        <field name="Part">SS8050-G</field>
       </fields>
       <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
       <property name="LCSC" value="C2146"/>
-      <property name="Alternative" value="SS8050-G"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="SS8050-G"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -402,12 +450,14 @@
       <value>S8050</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
-        <field name="Alternative">SS8050-G</field>
         <field name="LCSC">C2146</field>
+        <field name="Part">SS8050-G</field>
       </fields>
       <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
       <property name="LCSC" value="C2146"/>
-      <property name="Alternative" value="SS8050-G"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="SS8050-G"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -417,12 +467,14 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT10K0</field>
         <field name="LCSC">C25804</field>
+        <field name="Part">RMCF0603JT10K0</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25804"/>
-      <property name="Alternative" value="RMCF0603JT10K0"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT10K0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -432,12 +484,14 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT10K0</field>
         <field name="LCSC">C25804</field>
+        <field name="Part">RMCF0603JT10K0</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25804"/>
-      <property name="Alternative" value="RMCF0603JT10K0"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT10K0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -447,12 +501,14 @@
       <value>470R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT470R</field>
         <field name="LCSC">C23179</field>
+        <field name="Part">RMCF0603JT470R</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C23179"/>
-      <property name="Alternative" value="RMCF0603JT470R"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT470R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -462,12 +518,14 @@
       <value>470R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT470R</field>
         <field name="LCSC">C23179</field>
+        <field name="Part">RMCF0603JT470R</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C23179"/>
-      <property name="Alternative" value="RMCF0603JT470R"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT470R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -477,12 +535,14 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JJ1K00</field>
         <field name="LCSC">C21190</field>
+        <field name="Part">RMCF0603JJ1K00</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C21190"/>
-      <property name="Alternative" value="RMCF0603JJ1K00"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JJ1K00"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -492,12 +552,14 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JJ1K00</field>
         <field name="LCSC">C21190</field>
+        <field name="Part">RMCF0603JJ1K00</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C21190"/>
-      <property name="Alternative" value="RMCF0603JJ1K00"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JJ1K00"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -507,12 +569,14 @@
       <value>470R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT470R</field>
         <field name="LCSC">C23179</field>
+        <field name="Part">RMCF0603JT470R</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C23179"/>
-      <property name="Alternative" value="RMCF0603JT470R"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT470R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -522,12 +586,14 @@
       <value>470R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT470R</field>
         <field name="LCSC">C23179</field>
+        <field name="Part">RMCF0603JT470R</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C23179"/>
-      <property name="Alternative" value="RMCF0603JT470R"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT470R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -537,12 +603,14 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT10K0</field>
         <field name="LCSC">C25804</field>
+        <field name="Part">RMCF0603JT10K0</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25804"/>
-      <property name="Alternative" value="RMCF0603JT10K0"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT10K0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -552,12 +620,14 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT10K0</field>
         <field name="LCSC">C25804</field>
+        <field name="Part">RMCF0603JT10K0</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25804"/>
-      <property name="Alternative" value="RMCF0603JT10K0"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT10K0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -567,12 +637,14 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT10K0</field>
         <field name="LCSC">C25804</field>
+        <field name="Part">RMCF0603JT10K0</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25804"/>
-      <property name="Alternative" value="RMCF0603JT10K0"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT10K0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -582,12 +654,14 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT10K0</field>
         <field name="LCSC">C25804</field>
+        <field name="Part">RMCF0603JT10K0</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25804"/>
-      <property name="Alternative" value="RMCF0603JT10K0"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT10K0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -597,12 +671,14 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT10K0</field>
         <field name="LCSC">C25804</field>
+        <field name="Part">RMCF0603JT10K0</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25804"/>
-      <property name="Alternative" value="RMCF0603JT10K0"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT10K0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -612,12 +688,14 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JJ1K00</field>
         <field name="LCSC">C21190</field>
+        <field name="Part">RMCF0603JJ1K00</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C21190"/>
-      <property name="Alternative" value="RMCF0603JJ1K00"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JJ1K00"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -627,12 +705,14 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JJ1K00</field>
         <field name="LCSC">C21190</field>
+        <field name="Part">RMCF0603JJ1K00</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C21190"/>
-      <property name="Alternative" value="RMCF0603JJ1K00"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JJ1K00"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -642,12 +722,14 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JJ1K00</field>
         <field name="LCSC">C21190</field>
+        <field name="Part">RMCF0603JJ1K00</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C21190"/>
-      <property name="Alternative" value="RMCF0603JJ1K00"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JJ1K00"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -657,12 +739,14 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JJ1K00</field>
         <field name="LCSC">C21190</field>
+        <field name="Part">RMCF0603JJ1K00</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C21190"/>
-      <property name="Alternative" value="RMCF0603JJ1K00"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JJ1K00"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -672,12 +756,14 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT10K0</field>
         <field name="LCSC">C25804</field>
+        <field name="Part">RMCF0603JT10K0</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25804"/>
-      <property name="Alternative" value="RMCF0603JT10K0"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT10K0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -687,12 +773,14 @@
       <value>470R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT470R</field>
         <field name="LCSC">C23179</field>
+        <field name="Part">RMCF0603JT470R</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C23179"/>
-      <property name="Alternative" value="RMCF0603JT470R"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT470R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -702,12 +790,14 @@
       <value>470R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT470R</field>
         <field name="LCSC">C23179</field>
+        <field name="Part">RMCF0603JT470R</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C23179"/>
-      <property name="Alternative" value="RMCF0603JT470R"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT470R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -717,12 +807,14 @@
       <value>470R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT470R</field>
         <field name="LCSC">C23179</field>
+        <field name="Part">RMCF0603JT470R</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C23179"/>
-      <property name="Alternative" value="RMCF0603JT470R"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT470R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -732,12 +824,14 @@
       <value>470R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Alternative">RMCF0603JT470R</field>
         <field name="LCSC">C23179</field>
+        <field name="Part">RMCF0603JT470R</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C23179"/>
-      <property name="Alternative" value="RMCF0603JT470R"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="RMCF0603JT470R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -747,12 +841,14 @@
       <value>BUTTON</value>
       <footprint>ESP32 UWB:SW_Push_3x4mm</footprint>
       <fields>
-        <field name="Alternative">PTS820J15MSMTRLFS</field>
         <field name="LCSC">C720477</field>
+        <field name="Part">PTS820J15MSMTRLFS</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="LCSC" value="C720477"/>
-      <property name="Alternative" value="PTS820J15MSMTRLFS"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="PTS820J15MSMTRLFS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -762,12 +858,14 @@
       <value>BUTTON</value>
       <footprint>ESP32 UWB:SW_Push_3x4mm</footprint>
       <fields>
-        <field name="Alternative">PTS820J15MSMTRLFS</field>
         <field name="LCSC">C720477</field>
+        <field name="Part">PTS820J15MSMTRLFS</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="LCSC" value="C720477"/>
-      <property name="Alternative" value="PTS820J15MSMTRLFS"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="PTS820J15MSMTRLFS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -777,14 +875,16 @@
       <value>AMS1117-3.3</value>
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
       <fields>
-        <field name="Alternative">NCP1117LPST33T3G</field>
         <field name="Comment">Uncommon Pinout for SOT-223 LDOs!</field>
         <field name="LCSC">C6186</field>
+        <field name="Part">NCP1117LPST33T3G</field>
       </fields>
       <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
       <property name="LCSC" value="C6186"/>
-      <property name="Alternative" value="NCP1117LPST33T3G"/>
+      <property name="Alternative" value=""/>
       <property name="Comment" value="Uncommon Pinout for SOT-223 LDOs!"/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="NCP1117LPST33T3G"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -794,12 +894,14 @@
       <value>ESP32-C3-MINI-1-N4</value>
       <footprint>Espressif:ESP32-C3-MINI-1_Hand-Soldering</footprint>
       <fields>
-        <field name="Alternative">ESP32-C3-MINI-1-N4</field>
         <field name="LCSC">C2838502</field>
+        <field name="Part">ESP32-C3-MINI-1-N4</field>
       </fields>
       <libsource lib="Espressif" part="ESP32-C3-MINI-1" description="ESP32-C3-MINI-1 is a general-purpose Wi-Fi and Bluetooth LE module. This module features a rich set of peripherals and a small size, which makes it an ideal choice for smart home, industrial automation, health care, consumer electronics, etc"/>
       <property name="LCSC" value="C2838502"/>
-      <property name="Alternative" value="ESP32-C3-MINI-1-N4"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="ESP32-C3-MINI-1-N4"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -809,12 +911,14 @@
       <value>SILICON_LABS_CP2102N-A01-GQFN28SILICON_LABS_CP2102N-A01-GQFN28_0_3</value>
       <footprint>Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm</footprint>
       <fields>
-        <field name="Alternative">CP2102N-A02-GQFN28</field>
         <field name="LCSC">C6568</field>
+        <field name="Part">CP2102N-A02-GQFN28</field>
       </fields>
       <libsource lib="Interface_USB" part="CP2102N-Axx-xQFN28" description="USB to UART master bridge, QFN-28"/>
       <property name="LCSC" value="C6568"/>
-      <property name="Alternative" value="CP2102N-A02-GQFN28"/>
+      <property name="Alternative" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="CP2102N-A02-GQFN28"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -824,12 +928,16 @@
       <value>BU01</value>
       <footprint>ESP32 UWB:BU01</footprint>
       <fields>
-        <field name="Alternative">BU01</field>
+        <field name="Comment">AliExpress</field>
         <field name="LCSC">C503604</field>
+        <field name="Part">BU01</field>
       </fields>
       <libsource lib="ESP32 UWB" part="BU01" description=""/>
-      <property name="Alternative" value="BU01"/>
+      <property name="Alternative" value=""/>
       <property name="LCSC" value="C503604"/>
+      <property name="Comment" value="AliExpress"/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="BU01"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -839,13 +947,15 @@
       <value>SK6812_3535</value>
       <footprint>LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm</footprint>
       <fields>
-        <field name="Alternative">SK6812 3535</field>
-        <field name="Comment">also Adafruit #2659/#2686 and Aliexpress</field>
+        <field name="Comment">optional, search "SK6812 3535" on Aliexpress, also Adafruit #2686</field>
+        <field name="Part">2659</field>
       </fields>
       <libsource lib="LED" part="SK6812MINI" description="RGB LED with integrated controller"/>
-      <property name="Alternative" value="SK6812 3535"/>
-      <property name="Comment" value="also Adafruit #2659/#2686 and Aliexpress"/>
+      <property name="Alternative" value=""/>
+      <property name="Comment" value="optional, search &quot;SK6812 3535&quot; on Aliexpress, also Adafruit #2686"/>
       <property name="LCSC" value=""/>
+      <property name="SKU" value=""/>
+      <property name="Part" value="2659"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ESP32 UWB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>

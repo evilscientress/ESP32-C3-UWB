@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "ESP32 UWB-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/ESP32 UWB-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32 UWB")(type "KiCad")(uri "${KIPRJMOD}/ESP32 UWB.kicad_sym")(options "")(descr ""))
 )
